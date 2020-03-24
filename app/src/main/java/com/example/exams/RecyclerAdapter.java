@@ -52,7 +52,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyImag
 
         public MyImageViewHolder(@NonNull View itemView, Context context, String[] answers) {
             super(itemView);
-            textView = itemView.findViewById(R.id.album_title);
+            textView = itemView.findViewById(R.id.answer_title);
             this.context = context;
             this.answers = answers;
             itemView.setOnClickListener(this);
